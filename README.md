@@ -44,10 +44,15 @@
 
 ## 📦 Featured Projects
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| [**badge-quest**](https://github.com/Arul1998/badge-quest) | Open-source TypeScript utility library — date utils, Angular toast service, CI/CD pipeline | TypeScript · Angular · GitHub Actions |
-| [**my-portfolio**](https://github.com/Arul1998/my-portfolio) | Personal portfolio website | Angular · TypeScript |
+| Project | Status | Description | Tech |
+|--------|--------|-------------|------|
+| [**sparkle-tryon**](https://github.com/Arul1998/sparkle-tryon) | In progress | AR jewellery try-on experience in the browser | TypeScript · Web |
+| [**pdf-world**](https://github.com/Arul1998/pdf-world) | In progress | Browser-based toolkit for working with PDFs | TypeScript |
+| [**voiceclone-studio**](https://github.com/Arul1998/voiceclone-studio) | Active | Voice cloning and audio tooling with a modern web UI | TypeScript |
+| [**ChargeChime**](https://github.com/Arul1998/ChargeChime) | Active | Battery / charging assistant app | TypeScript |
+| [**clinic-inbox-assistant**](https://github.com/Arul1998/clinic-inbox-assistant) | Hackathon | AI assistant for clinic inbox workflows and triage | Python · Web |
+| [**angular-code-quality-toolkit**](https://github.com/Arul1998/angular-code-quality-toolkit) | VS Code extension | Runs Angular code-quality tools (depcheck, ts-prune, ESLint) from VS Code | TypeScript · VS Code |
+
 
 ---
 
