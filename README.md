@@ -15,11 +15,11 @@
 ## 🚀 About Me
 
 - 🔭 Currently building production apps at **eoCiTO Limited**
-- 🌱 Deepening expertise in **Angular 17+**, **RxJS**, and **Cloud architecture**
-- 💡 Open-source contributor — check out [badge-quest](https://github.com/Arul1998/badge-quest) for reusable TypeScript utilities
-- 🎯 Goal: Contribute to impactful open-source projects and grow the developer community
-- 🇬🇧 Based in London, UK — available for collaboration worldwide
-- 📫 Reach me at **arulcornelious.com**
+- 🌱 Deepening expertise in **Angular 17+**, **RxJS**, and frontend architecture
+- 💡 Exploring AI and AR: jewellery try-on, voice cloning, and PDF utilities
+- 🎯 Goal: Contribute to impactful open-source projects and mentor other developers
+- 🌍 Based in London, UK — open to remote collaboration
+- 📫 Contact via portfolio: [arulcornelious.com](https://arulcornelious.com)
 
 ---
 
