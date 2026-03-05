@@ -78,9 +78,11 @@
 
 <div align="center">
 
-![Arul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Arul1998&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+<p align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Arul1998&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff" height="180" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=Arul1998&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8" height="180" />
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Arul1998&layout=compact&theme=tokyonight&hide_border=true)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Arul1998&theme=tokyonight&hide_border=true)
 
