@@ -76,17 +76,37 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
-
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Arul1998&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff" height="180" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=Arul1998&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8" height="180" />
+  <a href="https://github.com/Arul1998">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Arul1998&theme=dracula" alt="Arul1998's GitHub Contribution"/>
+  </a>
 </p>
 
+<table align="center">
+  <tr>
+    <td valign="top">
+      <a href="https://github.com/Arul1998">
+        <img
+          alt="Arul1998's GitHub Stats"
+          src="https://denvercoder1-github-readme-stats.vercel.app/api?username=Arul1998&show_icons=true&count_private=true&theme=dracula&bg_color=1A1B27&title_color=00FF00&icon_color=00FF00"
+          height="192px"
+          width="100%"
+        />
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Arul1998">
+        <img
+          alt="Arul1998's Top Languages"
+          src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Arul1998&langs_count=8&layout=compact&theme=dracula&bg_color=1A1B27&title_color=00FF00&icon_color=00FF00"
+          height="192px"
+          width="100%"
+        />
+      </a>
+    </td>
+  </tr>
+</table>
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Arul1998&theme=tokyonight&hide_border=true)
-
-</div>
 
 ---
 
