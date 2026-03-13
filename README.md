@@ -78,7 +78,10 @@
 
 <p align="center">
   <a href="https://github.com/Arul1998">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Arul1998&theme=dracula" alt="Arul1998's GitHub Contribution"/>
+    <img
+      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Arul1998&theme=dracula"
+      alt="Arul1998's GitHub profile details"
+    />
   </a>
 </p>
 
@@ -106,6 +109,22 @@
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <a href="https://github.com/Arul1998">
+    <img
+      src="https://streak-stats.demolab.com?user=Arul1998&theme=dark&background=1A1B27&ring=00FF00&currStreakLabel=00FF00&currStreakNum=00FF00&sideNums=FFFFFF&sideLabels=888888"
+      alt="Arul1998's GitHub streak"
+    />
+  </a>
+</p>
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arul1998/Arul1998/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arul1998/Arul1998/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Arul1998/Arul1998/output/pacman-contribution-graph.svg">
+</picture>
 
 
 ---
