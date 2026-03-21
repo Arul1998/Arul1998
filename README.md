@@ -64,7 +64,7 @@
 
 | Project | Status | Description | Tech |
 |--------|--------|-------------|------|
-| [**linkedin-easy-apply**](https://github.com/Arul1998/linkedin-easy-apply) | In progress | Automates LinkedIn Easy Apply job applications | TypeScript · Node.js |
+| [**linkedin-easy-apply**](https://github.com/Arul1998/linkedin-easy-apply) | In progress | Automates LinkedIn Easy Apply job applications | Python · Selenium |
 | [**sparkle-tryon**](https://github.com/Arul1998/sparkle-tryon) | In progress | AR jewellery try-on experience in the browser | TypeScript · Web |
 | [**pdf-world**](https://github.com/Arul1998/pdf-world) | In progress | Browser-based toolkit for working with PDFs | TypeScript |
 | [**voiceclone-studio**](https://github.com/Arul1998/voiceclone-studio) | Active | Voice cloning and audio tooling with a modern web UI | TypeScript |
