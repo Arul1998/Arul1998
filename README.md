@@ -64,13 +64,13 @@
 
 | Project | Status | Description | Tech |
 |--------|--------|-------------|------|
+| [**linkedin-easy-apply**](https://github.com/Arul1998/linkedin-easy-apply) | In progress | Automates LinkedIn Easy Apply job applications | TypeScript · Node.js |
 | [**sparkle-tryon**](https://github.com/Arul1998/sparkle-tryon) | In progress | AR jewellery try-on experience in the browser | TypeScript · Web |
 | [**pdf-world**](https://github.com/Arul1998/pdf-world) | In progress | Browser-based toolkit for working with PDFs | TypeScript |
 | [**voiceclone-studio**](https://github.com/Arul1998/voiceclone-studio) | Active | Voice cloning and audio tooling with a modern web UI | TypeScript |
 | [**ChargeChime**](https://github.com/Arul1998/ChargeChime) | Active | Battery / charging assistant app | TypeScript |
 | [**clinic-inbox-assistant**](https://github.com/Arul1998/clinic-inbox-assistant) | Hackathon | AI assistant for clinic inbox workflows and triage | Python · Web |
 | [**angular-code-quality-toolkit**](https://github.com/Arul1998/angular-code-quality-toolkit) | VS Code extension | Runs Angular code-quality tools (depcheck, ts-prune, ESLint) from VS Code | TypeScript · VS Code |
-| [**linkedin-easy-apply**](https://github.com/Arul1998/linkedin-easy-apply) | Inactive | Automates LinkedIn Easy Apply job applications | TypeScript · Node.js |
 
 
 ---
