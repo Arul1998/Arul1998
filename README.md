@@ -146,3 +146,16 @@ I'm always open to interesting conversations and collaboration opportunities.
 ![Profile Views](https://komarev.com/ghpvc/?username=Arul1998&color=blue&style=flat-square&label=Profile+Views)
 
 </div>
+
+
+---
+
+## ☕ Support My Work
+
+If you find my projects helpful or enjoyed my content, consider buying me a coffee! It keeps me going and motivates me to build more open-source tools. 🙏
+
+<div align="center">
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support%20My%20Work-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/arulcornelious)
+
+</div>
