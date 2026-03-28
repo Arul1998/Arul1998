@@ -72,6 +72,8 @@ If you find my projects helpful, consider buying me a coffee! It keeps me going 
 
 </div>
 
+<div align="center">
+
 ## 🤝 Let's Connect
 
 I'm always open to interesting conversations and collaboration opportunities.
@@ -81,3 +83,5 @@ I'm always open to interesting conversations and collaboration opportunities.
 - ⭐ If you find my projects useful, a star means a lot!
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Arul1998&color=blue&style=flat-square&label=Profile+Views)](https://github.com/Arul1998)
+
+</div>
