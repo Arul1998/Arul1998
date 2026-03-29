@@ -63,14 +63,54 @@ If you find my projects helpful, consider buying me a coffee! It keeps me going 
 
 ## 📊 GitHub Stats
 
-<div align="center">
+<p align="center">
+  <a href="https://github.com/Arul1998">
+    <img
+      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Arul1998&theme=dracula"
+      alt="Arul1998's GitHub profile details"
+    />
+  </a>
+</p>
 
-| ![Arul1998's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Arul1998&show_icons=true&theme=dark) | ![Arul1998's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Arul1998&layout=compact&theme=dark) |
-|---|---|
+<table align="center">
+  <tr>
+    <td valign="top">
+      <a href="https://github.com/Arul1998">
+        <img
+          alt="Arul1998's GitHub Stats"
+          src="https://denvercoder1-github-readme-stats.vercel.app/api?username=Arul1998&show_icons=true&count_private=true&theme=dracula&bg_color=1A1B27&title_color=00FF00&icon_color=00FF00"
+          height="192px"
+          width="100%"
+        />
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Arul1998">
+        <img
+          alt="Arul1998's Top Languages"
+          src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Arul1998&langs_count=8&layout=compact&theme=dracula&bg_color=1A1B27&title_color=00FF00&icon_color=00FF00"
+          height="192px"
+          width="100%"
+        />
+      </a>
+    </td>
+  </tr>
+</table>
 
-![Arul1998's GitHub streak](https://github-readme-streak-stats.herokuapp.com/?user=Arul1998&theme=dark)
+<p align="center">
+  <a href="https://github.com/Arul1998">
+    <img
+      src="https://streak-stats.demolab.com?user=Arul1998&theme=dark&background=1A1B27&ring=00FF00&currStreakLabel=00FF00&currStreakNum=00FF00&sideNums=FFFFFF&sideLabels=888888"
+      alt="Arul1998's GitHub streak"
+    />
+  </a>
+</p>
 
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arul1998/Arul1998/main/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arul1998/Arul1998/main/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Arul1998/Arul1998/main/output/pacman-contribution-graph.svg">
+</picture>
 
 ## 🤝 Let's Connect
 
