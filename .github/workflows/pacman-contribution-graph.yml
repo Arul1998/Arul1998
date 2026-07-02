@@ -9,6 +9,7 @@ on:
       - main
     paths-ignore:
       - "assets/**"
+      - "profile-summary-card-output/**"
 
 jobs:
   generate:
