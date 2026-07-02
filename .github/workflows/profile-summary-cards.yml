@@ -35,6 +35,8 @@ jobs:
         run: |
           find profile-summary-card-output -mindepth 1 -maxdepth 1 -type d ! -name 'dracula' -exec rm -rf {} +
           rm -f profile-summary-card-output/README.md
+          rm -f profile-summary-card-output/dracula/README.md
+          rm -f profile-summary-card-output/dracula/4-productive-time.svg
 
       - name: Commit profile summary cards
         run: |
