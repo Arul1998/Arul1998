@@ -42,10 +42,30 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cd generated
-          git init -b output
+          set -euo pipefail
+          repo_url="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          if git clone --depth=1 --branch=output "$repo_url" output-repo 2>/dev/null; then
+            echo "Checked out existing output branch."
+          else
+            echo "Creating output branch for the first time."
+            mkdir output-repo
+            git -C output-repo init -b output
+            git -C output-repo config user.email "github-actions[bot]@users.noreply.github.com"
+            git -C output-repo config user.name "github-actions[bot]"
+          fi
+
+          cp generated/*.svg output-repo/
+
+          cd output-repo
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git add .
+
+          if git diff --staged --quiet; then
+            echo "No SVG changes detected. Skipping push to avoid unnecessary output branch updates."
+            exit 0
+          fi
+
           git commit -m "Update Pac-Man contribution graph [automated]"
-          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
+          git push --force "$repo_url" output
