@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "assets/**"
 
 jobs:
   generate:
@@ -28,7 +33,7 @@ jobs:
           files=(dist/*.svg **/*contribution-graph*.svg)
           filtered_files=()
           for file in "${files[@]}"; do
-            if [[ "$file" != generated/* && "$file" != output/* ]]; then
+            if [[ "$file" != generated/* && "$file" != assets/* ]]; then
               filtered_files+=("$file")
             fi
           done
@@ -38,34 +43,18 @@ jobs:
           fi
           cp "${filtered_files[@]}" generated/
 
-      - name: Push SVGs to output branch
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit SVGs to main
         run: |
-          set -euo pipefail
-          repo_url="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-
-          if git clone --depth=1 --branch=output "$repo_url" output-repo 2>/dev/null; then
-            echo "Checked out existing output branch."
-          else
-            echo "Creating output branch for the first time."
-            mkdir output-repo
-            git -C output-repo init -b output
-            git -C output-repo config user.email "github-actions[bot]@users.noreply.github.com"
-            git -C output-repo config user.name "github-actions[bot]"
-          fi
-
-          cp generated/*.svg output-repo/
-
-          cd output-repo
+          mkdir -p assets
+          cp generated/*.svg assets/
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add .
+          git add assets/
 
           if git diff --staged --quiet; then
-            echo "No SVG changes detected. Skipping push to avoid unnecessary output branch updates."
+            echo "No SVG changes detected. Skipping commit."
             exit 0
           fi
 
           git commit -m "Update Pac-Man contribution graph [automated]"
-          git push --force "$repo_url" output
+          git push
