@@ -41,6 +41,6 @@ jobs:
             exit 0
           fi
 
-          git pull --rebase origin main
           git commit -m "Update profile summary cards [automated]"
+          git pull --rebase origin main
           git push
