@@ -34,63 +34,44 @@ Open to **full-time**, **contract**, **remote**, **hybrid**, and **relocation** 
 - 🌍 Based in London, UK — open to worldwide opportunities (remote, hybrid, relocation)
 - 📫 Contact via portfolio: [arulcornelious.com](https://www.arulcornelious.com/)
 
-## ✨ Spotlight
+## 💼 What I build
 
-<p align="center">
-  <a href="https://github.com/Arul1998/sparkle-tryon">
-    <img
-      src="https://opengraph.githubassets.com/1/Arul1998/sparkle-tryon"
-      alt="sparkle-tryon — AR jewellery try-on in the browser"
-      width="49%"
-    />
-  </a>
-  <a href="https://github.com/Arul1998/angular-code-quality-toolkit">
-    <img
-      src="https://opengraph.githubassets.com/1/Arul1998/angular-code-quality-toolkit"
-      alt="angular-code-quality-toolkit — VS Code extension for Angular code quality"
-      width="49%"
-    />
-  </a>
-</p>
+Where I add the most value on product teams.
 
-## 🛠️ Tech Stack
+| | |
+|---|---|
+| **Full-stack development** | End-to-end application development from Angular/TypeScript frontends to C# APIs and SQL databases |
+| **Cross-platform solutions** | Mobile and web applications with Ionic, Capacitor, and responsive design principles |
+| **AI-powered features** | Integrating LLM and AI APIs such as OpenAI and Grok into product workflows and user-facing features |
+| **Agile delivery** | Sprint planning, standups, retrospectives, and delivering iterative value to stakeholders |
 
-### Frontend
+## 🛠️ Core technologies
 
-[![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)](https://angular.io) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org) [![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=flat-square&logo=sass&logoColor=white)](https://sass-lang.com) [![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=flat-square&logo=reactivex&logoColor=white)](https://rxjs.dev)
+Tools and frameworks I use across professional and personal projects.
 
-### Backend & APIs
-
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org) [![C%23](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/csharp/) [![REST API](https://img.shields.io/badge/REST_APIs-005571?style=flat-square&logo=fastapi&logoColor=white)](https://restfulapi.net) [![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org) [![Microsoft SQL Server](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
-
-### AI & Experiments
-
-[![AI](https://img.shields.io/badge/AI_APIs-000000?style=flat-square&logo=openai&logoColor=white)](https://openai.com) [![AR](https://img.shields.io/badge/AR_Experiments-FF6F00?style=flat-square&logo=google-arcore&logoColor=white)](https://developers.google.com/ar)
-
-### Tools & DevOps
-
-[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com) [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)](https://github.com/features/actions) [![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com)
-
-### Mobile
-
-[![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)](https://capacitorjs.com)
-
-### Cloud & Services
-
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com) [![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://www.cloudflare.com)
+[![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)](https://angular.io) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org) [![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev) [![C%23](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/csharp/) [![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)](https://capacitorjs.com) [![Microsoft SQL Server](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/en-us/sql-server) [![LLM / AI APIs](https://img.shields.io/badge/LLM_%2F_AI_APIs-000000?style=flat-square&logo=openai&logoColor=white)](https://openai.com) [![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com)
 
 ## 📦 Featured Projects
 
+### Selected work
+
+Enterprise platforms, mobile apps, and standout personal projects.
+
 | Project | Status | Description | Tech |
 |---|---|---|---|
-| [**sparkle-tryon**](https://github.com/Arul1998/sparkle-tryon) | Completed | AR jewellery try-on experience in the browser | TypeScript · React |
-| [**angular-code-quality-toolkit**](https://github.com/Arul1998/angular-code-quality-toolkit) | Completed | VS Code extension that runs Angular code-quality tools from the editor | TypeScript · VS Code |
-| [**pdf-world**](https://github.com/Arul1998/pdf-world) | In progress | Browser-based toolkit for working with PDFs | TypeScript |
-| [**voiceclone-studio**](https://github.com/Arul1998/voiceclone-studio) | In progress | Voice cloning and audio tooling with a modern web UI | TypeScript |
-| [**ChargeChime**](https://github.com/Arul1998/ChargeChime) | In progress | Battery / charging assistant app | TypeScript |
-| [**clinic-inbox-assistant**](https://github.com/Arul1998/clinic-inbox-assistant) | Completed | AI assistant for clinic inbox workflows and triage | Python · LLM |
-| [**hackerrank-orchestrate-solution**](https://github.com/Arul1998/hackerrank-orchestrate-solution) | Completed | HackerRank Orchestra challenge solution and orchestration workflow implementation | Python |
-| **Manager.Software — Demand Manager Mobile** | Completed | Lead Mobile Developer at eoCiTO delivering a demand manager mobile experience (proprietary, at eoCiTO) | Angular · Capacitor · TypeScript |
+| **Manager.Software — Demand Manager Mobile** | Completed | Lead Mobile Developer at eoCiTO — cross-platform demand manager mobile app for enterprise supply chain clients on Manager.Software (proprietary) | Angular · Capacitor · TypeScript |
+| [**clinic-inbox-assistant**](https://github.com/Arul1998/clinic-inbox-assistant) | Completed | MedGemma Impact Challenge prototype that turns a free-text clinical inbox note into a structured, triage-ready summary with symptoms, risk factors, red flags, and urgency (synthetic data only; demo, not medical advice) | Python · MedGemma · LLM |
+| [**sparkle-tryon**](https://github.com/Arul1998/sparkle-tryon) | Completed | Browser-based virtual jewellery try-on — users pick earrings, necklaces, rings, bracelets, or glasses and see pieces anchored to MediaPipe face and hand landmarks in real time, with placement controls and photo capture | React · TypeScript · MediaPipe |
+
+### More projects
+
+| Project | Status | Description | Tech |
+|---|---|---|---|
+| [**angular-code-quality-toolkit**](https://github.com/Arul1998/angular-code-quality-toolkit) | Completed | VS Code extension that runs depcheck, ts-prune, and ESLint from the editor to help Angular teams find unused code and dependencies | TypeScript · VS Code |
+| [**hackerrank-orchestrate-solution**](https://github.com/Arul1998/hackerrank-orchestrate-solution) | Completed | HackerRank Orchestra challenge solution implementing dependency-aware task orchestration and parallel workflow execution | Python |
+| [**pdf-world**](https://github.com/Arul1998/pdf-world) | In progress | Browser-based PDF toolkit for everyday document workflows — merge, split, compress, and convert files without leaving the browser | TypeScript |
+| [**voiceclone-studio**](https://github.com/Arul1998/voiceclone-studio) | In progress | Voice cloning and audio tooling with a modern web UI for TTS experimentation and synthesis workflows | TypeScript |
+| [**ChargeChime**](https://github.com/Arul1998/ChargeChime) | In progress | Cross-platform battery assistant with customizable charging alerts and notifications when devices reach target levels | TypeScript |
 
 ## 📊 GitHub Stats
 
