@@ -58,4 +58,5 @@ jobs:
           fi
 
           git commit -m "Update Pac-Man contribution graph [automated]"
+          git pull --rebase origin main
           git push

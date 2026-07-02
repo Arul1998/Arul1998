@@ -18,6 +18,7 @@
 ## 🚀 About Me
 
 - 🔭 Currently building production apps at **eoCiTO Limited**
+- 🔨 **Currently building:** [pdf-world](https://github.com/Arul1998/pdf-world) and [voiceclone-studio](https://github.com/Arul1998/voiceclone-studio)
 - 🌱 Deepening expertise in **Angular 17+**, **RxJS**, cross-platform delivery, and frontend architecture
 - 💡 Exploring AI and AR: jewellery try-on, voice cloning, and PDF utilities
 - 🧠 MSc Software Engineering (**Merit**)
@@ -25,6 +26,25 @@
 - 🎯 Goal: Contribute to impactful open-source projects and mentor other developers
 - 🌍 Based in London, UK — open to worldwide opportunities (remote, hybrid, relocation)
 - 📫 Contact via portfolio: [arulcornelious.com](https://www.arulcornelious.com/)
+
+## ✨ Spotlight
+
+<p align="center">
+  <a href="https://github.com/Arul1998/sparkle-tryon">
+    <img
+      src="https://opengraph.githubassets.com/1/Arul1998/sparkle-tryon"
+      alt="sparkle-tryon — AR jewellery try-on in the browser"
+      width="49%"
+    />
+  </a>
+  <a href="https://github.com/Arul1998/angular-code-quality-toolkit">
+    <img
+      src="https://opengraph.githubassets.com/1/Arul1998/angular-code-quality-toolkit"
+      alt="angular-code-quality-toolkit — VS Code extension for Angular code quality"
+      width="49%"
+    />
+  </a>
+</p>
 
 ## 🛠️ Tech Stack
 
@@ -63,7 +83,6 @@
 | [**ChargeChime**](https://github.com/Arul1998/ChargeChime) | In progress | Battery / charging assistant app | TypeScript |
 | [**clinic-inbox-assistant**](https://github.com/Arul1998/clinic-inbox-assistant) | Completed | AI assistant for clinic inbox workflows and triage | Python · LLM |
 | [**hackerrank-orchestrate-solution**](https://github.com/Arul1998/hackerrank-orchestrate-solution) | Completed | HackerRank Orchestra challenge solution and orchestration workflow implementation | Python |
-| [**linkedin-easy-apply**](https://github.com/Arul1998/linkedin-easy-apply) | In progress | Automates LinkedIn Easy Apply job applications | Python · Selenium |
 | **Manager.Software — Demand Manager Mobile** | Completed | Lead Mobile Developer at eoCiTO delivering a demand manager mobile experience (proprietary, at eoCiTO) | Angular · Capacitor · TypeScript |
 
 ## 📊 GitHub Stats
@@ -82,34 +101,31 @@
     <td valign="top">
       <a href="https://github.com/Arul1998">
         <img
-          alt="Arul1998's GitHub Stats"
-          src="https://denvercoder1-github-readme-stats.vercel.app/api?username=Arul1998&show_icons=true&count_private=true&include_all_commits=true&cache_seconds=21600&theme=dracula&bg_color=1A1B27&title_color=00FF00&icon_color=00FF00"
-          height="192px"
-          width="100%"
+          alt="Arul1998's GitHub stats"
+          src="https://raw.githubusercontent.com/Arul1998/Arul1998/main/profile-summary-card-output/dracula/3-stats.svg"
         />
       </a>
     </td>
     <td valign="top">
       <a href="https://github.com/Arul1998">
         <img
-          alt="Arul1998's Top Languages"
-          src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Arul1998&langs_count=8&layout=compact&cache_seconds=21600&theme=dracula&bg_color=1A1B27&title_color=00FF00&icon_color=00FF00"
-          height="192px"
-          width="100%"
+          alt="Arul1998's top languages by repository"
+          src="https://raw.githubusercontent.com/Arul1998/Arul1998/main/profile-summary-card-output/dracula/1-repos-per-language.svg"
+        />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" colspan="2">
+      <a href="https://github.com/Arul1998">
+        <img
+          alt="Arul1998's top languages by commits"
+          src="https://raw.githubusercontent.com/Arul1998/Arul1998/main/profile-summary-card-output/dracula/2-most-commit-language.svg"
         />
       </a>
     </td>
   </tr>
 </table>
-
-<p align="center">
-  <a href="https://github.com/Arul1998">
-    <img
-      src="https://streak-stats.demolab.com?user=Arul1998&theme=dark&background=1A1B27&ring=00FF00&currStreakLabel=00FF00&currStreakNum=00FF00&sideNums=FFFFFF&sideLabels=888888"
-      alt="Arul1998's GitHub streak"
-    />
-  </a>
-</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arul1998/Arul1998/main/assets/pacman-contribution-graph-dark.svg">
@@ -141,9 +157,5 @@ I'm always open to interesting conversations and collaboration opportunities.
 <a href="https://www.buymeacoffee.com/arulcornelious" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" width="200" height="56" />
 </a>
-
-<br><br>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Arul1998&color=blue&style=flat-square&label=Profile+Views)
 
 </div>

@@ -27,14 +27,20 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          UTC_OFFSET: 0
+          # London (BST); productive-time card aligns with UK local time in summer
+          UTC_OFFSET: 1
           AUTO_PUSH: false
+
+      - name: Keep only dracula theme
+        run: |
+          find profile-summary-card-output -mindepth 1 -maxdepth 1 -type d ! -name 'dracula' -exec rm -rf {} +
+          rm -f profile-summary-card-output/README.md
 
       - name: Commit profile summary cards
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add profile-summary-card-output/
+          git add -A profile-summary-card-output/
 
           if git diff --staged --quiet; then
             echo "No profile card changes detected. Skipping commit."
