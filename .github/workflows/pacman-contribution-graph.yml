@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Generate pacman-contribution-graph SVGs
         uses: abozanona/pacman-contribution-graph@main
@@ -27,7 +27,19 @@ jobs:
       - name: Copy SVGs to output folder
         run: |
           mkdir -p output
-          cp dist/*.svg output/
+          shopt -s globstar nullglob
+          files=(dist/*.svg **/*contribution-graph*.svg)
+          filtered_files=()
+          for file in "${files[@]}"; do
+            if [[ "$file" != output/* ]]; then
+              filtered_files+=("$file")
+            fi
+          done
+          if [ ${#filtered_files[@]} -eq 0 ]; then
+            echo "No generated SVG files found."
+            exit 1
+          fi
+          cp "${filtered_files[@]}" output/
 
       - name: Commit and push SVGs to main
         run: |
