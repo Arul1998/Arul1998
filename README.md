@@ -5,14 +5,9 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-arulcornelious.com-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.arulcornelious.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-arul--cornelious-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arul-cornelious)
 [![Location](https://img.shields.io/badge/Location-London%2C%20UK-red?style=for-the-badge&logo=google-maps&logoColor=white)](https://maps.google.com/?q=London,UK)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/arulcornelious)
 
 **Software Engineer** • Angular · TypeScript · Web & mobile · AI integration · London, UK
-
-### ☕ Support My Work
-
-If you find my projects helpful, consider buying me a coffee! It keeps me going and motivates me to build more open-source tools. 🙏
-
-<a href="https://www.buymeacoffee.com/arulcornelious" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200" height="56"></a>
 
 </div>
 
@@ -53,21 +48,21 @@ If you find my projects helpful, consider buying me a coffee! It keeps me going 
 
 ### Cloud & Services
 
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com) [![Cloud](https://img.shields.io/badge/Cloud_Deployment-BDBDBD?style=flat-square&logo=cloudflare&logoColor=white)](https://www.cloudflare.com)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com) [![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://www.cloudflare.com)
 
 ## 📦 Featured Projects
 
 | Project | Status | Description | Tech |
 |---|---|---|---|
-| [**linkedin-easy-apply**](https://github.com/Arul1998/linkedin-easy-apply) | In progress | Automates LinkedIn Easy Apply job applications | Python · Selenium |
 | [**sparkle-tryon**](https://github.com/Arul1998/sparkle-tryon) | Completed | AR jewellery try-on experience in the browser | TypeScript · React |
+| [**angular-code-quality-toolkit**](https://github.com/Arul1998/angular-code-quality-toolkit) | Completed | VS Code extension that runs Angular code-quality tools from the editor | TypeScript · VS Code |
 | [**pdf-world**](https://github.com/Arul1998/pdf-world) | In progress | Browser-based toolkit for working with PDFs | TypeScript |
-| [**voiceclone-studio**](https://github.com/Arul1998/voiceclone-studio) | Active | Voice cloning and audio tooling with a modern web UI | TypeScript |
-| [**ChargeChime**](https://github.com/Arul1998/ChargeChime) | Active | Battery / charging assistant app | TypeScript |
+| [**voiceclone-studio**](https://github.com/Arul1998/voiceclone-studio) | In progress | Voice cloning and audio tooling with a modern web UI | TypeScript |
+| [**ChargeChime**](https://github.com/Arul1998/ChargeChime) | In progress | Battery / charging assistant app | TypeScript |
 | [**clinic-inbox-assistant**](https://github.com/Arul1998/clinic-inbox-assistant) | Completed | AI assistant for clinic inbox workflows and triage | Python · LLM |
 | [**hackerrank-orchestrate-solution**](https://github.com/Arul1998/hackerrank-orchestrate-solution) | Completed | HackerRank Orchestra challenge solution and orchestration workflow implementation | Python |
-| [**angular-code-quality-toolkit**](https://github.com/Arul1998/angular-code-quality-toolkit) | VS Code extension | Runs Angular code-quality tools from VS Code | TypeScript · VS Code |
-| **Manager.Software — Demand Manager Mobile** | Completed | Lead Mobile Developer at eoCiTO delivering a demand manager mobile experience | Angular · Capacitor · TypeScript |
+| [**linkedin-easy-apply**](https://github.com/Arul1998/linkedin-easy-apply) | In progress | Automates LinkedIn Easy Apply job applications | Python · Selenium |
+| **Manager.Software — Demand Manager Mobile** | Completed | Lead Mobile Developer at eoCiTO delivering a demand manager mobile experience (proprietary, at eoCiTO) | Angular · Capacitor · TypeScript |
 
 ## 📊 GitHub Stats
 
@@ -115,9 +110,9 @@ If you find my projects helpful, consider buying me a coffee! It keeps me going 
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arul1998/Arul1998/main/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arul1998/Arul1998/main/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Arul1998/Arul1998/main/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arul1998/Arul1998/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arul1998/Arul1998/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Arul1998/Arul1998/output/pacman-contribution-graph.svg">
 </picture>
 
 ## 🤝 Let's Connect
@@ -127,6 +122,16 @@ I'm always open to interesting conversations and collaboration opportunities.
 - 🌐 Portfolio: [arulcornelious.com](https://www.arulcornelious.com/)
 - 💼 LinkedIn: [linkedin.com/in/arul-cornelious](https://linkedin.com/in/arul-cornelious)
 - ⭐ If you find my projects useful, a star means a lot!
+
+<div align="center">
+
+### ☕ Support My Work
+
+If you find my projects helpful, consider buying me a coffee! It keeps me going and motivates me to build more open-source tools. 🙏
+
+<a href="https://www.buymeacoffee.com/arulcornelious" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200" height="56"></a>
+
+</div>
 
 <div align="center">
 
