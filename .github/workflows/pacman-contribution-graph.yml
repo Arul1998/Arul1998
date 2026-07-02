@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   generate:
@@ -20,18 +17,18 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Generate pacman-contribution-graph SVGs
-        uses: abozanona/pacman-contribution-graph@main
+        uses: abozanona/pacman-contribution-graph@d258e3fb01511c1ff4fe6418408ede37b2ad4935 # v5.0.0
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      - name: Copy SVGs to output folder
+      - name: Collect SVGs
         run: |
-          mkdir -p output
+          mkdir -p generated
           shopt -s globstar nullglob
           files=(dist/*.svg **/*contribution-graph*.svg)
           filtered_files=()
           for file in "${files[@]}"; do
-            if [[ "$file" != output/* ]]; then
+            if [[ "$file" != generated/* && "$file" != output/* ]]; then
               filtered_files+=("$file")
             fi
           done
@@ -39,12 +36,16 @@ jobs:
             echo "No generated SVG files found."
             exit 1
           fi
-          cp "${filtered_files[@]}" output/
+          cp "${filtered_files[@]}" generated/
 
-      - name: Commit and push SVGs to main
+      - name: Push SVGs to output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add output/
-          git diff --staged --quiet || git commit -m "Update Pac-Man contribution graph [automated]"
-          git push
+          cd generated
+          git init -b output
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add .
+          git commit -m "Update Pac-Man contribution graph [automated]"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
