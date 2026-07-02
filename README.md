@@ -2,10 +2,12 @@
 
 # Hi there, I'm Arul Cornelious 👋
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-arulcornelious.com-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.arulcornelious.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-arul--cornelious-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arul-cornelious)
-[![Location](https://img.shields.io/badge/Location-London%2C%20UK-red?style=for-the-badge&logo=google-maps&logoColor=white)](https://maps.google.com/?q=London,UK)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/arulcornelious)
+[![Portfolio](https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.arulcornelious.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arul-cornelious)
+[![London, UK](https://img.shields.io/badge/London%2C%20UK-B91C1C?style=for-the-badge&logo=googlemaps&logoColor=white)](https://maps.google.com/?q=London,UK)
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/arulcornelious)
+
+<br>
 
 **Software Engineer** • Angular · TypeScript · Web & mobile · AI integration · London, UK
 
@@ -123,17 +125,24 @@ I'm always open to interesting conversations and collaboration opportunities.
 - 💼 LinkedIn: [linkedin.com/in/arul-cornelious](https://linkedin.com/in/arul-cornelious)
 - ⭐ If you find my projects useful, a star means a lot!
 
-<div align="center">
-
-### ☕ Support My Work
-
-If you find my projects helpful, consider buying me a coffee! It keeps me going and motivates me to build more open-source tools. 🙏
-
-<a href="https://www.buymeacoffee.com/arulcornelious" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200" height="56"></a>
-
-</div>
+---
 
 <div align="center">
+
+<h3>☕ Support my work</h3>
+
+<p align="center">
+  If you find my projects helpful, consider buying me a coffee!<br>
+  It keeps me going and motivates me to build more open-source tools. 🙏
+</p>
+
+<br>
+
+<a href="https://www.buymeacoffee.com/arulcornelious" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" width="200" height="56" />
+</a>
+
+<br><br>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Arul1998&color=blue&style=flat-square&label=Profile+Views)
 
