@@ -3,6 +3,7 @@
 # Hi there, I'm Arul Cornelious 👋
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.arulcornelious.com/)
+[![Download CV](https://img.shields.io/badge/Download_CV-DC2626?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://www.arulcornelious.com/cv/arul-cornelious-cv.pdf)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arul-cornelious)
 [![London, UK](https://img.shields.io/badge/London%2C%20UK-B91C1C?style=for-the-badge&logo=googlemaps&logoColor=white)](https://maps.google.com/?q=London,UK)
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/arulcornelious)
@@ -10,6 +11,12 @@
 <br>
 
 **Software Engineer** • Angular · TypeScript · Web & mobile · AI integration · London, UK
+
+<br>
+
+**5+ years** · **15+ projects** · **MSc Software Engineering (Merit)** · **Right to work in the UK**
+
+Open to **full-time**, **contract**, **remote**, **hybrid**, and **relocation** roles worldwide
 
 </div>
 
