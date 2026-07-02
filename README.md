@@ -78,7 +78,7 @@ If you find my projects helpful, consider buying me a coffee! It keeps me going 
       <a href="https://github.com/Arul1998">
         <img
           alt="Arul1998's GitHub Stats"
-          src="https://denvercoder1-github-readme-stats.vercel.app/api?username=Arul1998&show_icons=true&count_private=true&theme=dracula&bg_color=1A1B27&title_color=00FF00&icon_color=00FF00"
+          src="https://github-readme-stats.vercel.app/api?username=Arul1998&show_icons=true&count_private=true&include_all_commits=true&cache_seconds=21600&theme=dracula&bg_color=1A1B27&title_color=00FF00&icon_color=00FF00"
           height="192px"
           width="100%"
         />
@@ -88,7 +88,7 @@ If you find my projects helpful, consider buying me a coffee! It keeps me going 
       <a href="https://github.com/Arul1998">
         <img
           alt="Arul1998's Top Languages"
-          src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Arul1998&langs_count=8&layout=compact&theme=dracula&bg_color=1A1B27&title_color=00FF00&icon_color=00FF00"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arul1998&langs_count=8&layout=compact&cache_seconds=21600&theme=dracula&bg_color=1A1B27&title_color=00FF00&icon_color=00FF00"
           height="192px"
           width="100%"
         />
@@ -125,4 +125,3 @@ I'm always open to interesting conversations and collaboration opportunities.
 ![Profile Views](https://komarev.com/ghpvc/?username=Arul1998&color=blue&style=flat-square&label=Profile+Views)
 
 </div>
-
