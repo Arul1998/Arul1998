@@ -71,8 +71,8 @@
 <p align="center">
   <a href="https://github.com/Arul1998">
     <img
-      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Arul1998&theme=dracula"
-      alt="Arul1998's GitHub profile details"
+      src="https://github-readme-activity-graph.vercel.app/graph?username=Arul1998&theme=dracula&bg_color=1A1B27&color=00FF00&line=00FF00&point=FFFFFF&area=true&hide_border=true"
+      alt="Arul1998's GitHub contribution graph"
     />
   </a>
 </p>
