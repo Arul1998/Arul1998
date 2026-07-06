@@ -11,21 +11,41 @@ on:
       - "assets/**"
       - "profile-summary-card-output/**"
 
+env:
+  # Keep Node 20 until the action supports Node 24 natively (removed Sept 2026).
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
 
       - name: Generate pacman-contribution-graph SVGs
-        uses: abozanona/pacman-contribution-graph@d258e3fb01511c1ff4fe6418408ede37b2ad4935 # v5.0.0
+        id: generate
+        continue-on-error: true
+        uses: abozanona/pacman-contribution-graph@v5.0.0
         with:
           github_user_name: ${{ github.repository_owner }}
+
+      - name: Retry generate on failure
+        id: retry
+        if: steps.generate.outcome == 'failure'
+        uses: abozanona/pacman-contribution-graph@v5.0.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          player_style: conservative
+
+      - name: Fail if generation failed
+        if: steps.generate.outcome == 'failure' && steps.retry.outcome == 'failure'
+        run: |
+          echo "Pac-Man graph generation failed after 2 attempts."
+          exit 1
 
       - name: Collect SVGs
         run: |
