@@ -11,6 +11,10 @@ on:
       - "assets/**"
       - "profile-summary-card-output/**"
 
+concurrency:
+  group: pacman-contribution-graph-${{ github.ref }}
+  cancel-in-progress: false
+
 env:
   # Keep Node 20 until the action supports Node 24 natively (removed Sept 2026).
   ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
@@ -78,5 +82,15 @@ jobs:
           fi
 
           git commit -m "Update Pac-Man contribution graph [automated]"
-          git pull --rebase origin main
-          git push
+
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push; then
+              echo "Push succeeded on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Push failed on attempt ${attempt}; retrying..."
+            sleep $((attempt * 5))
+          done
+
+          echo "Push failed after 3 attempts."
+          exit 1
