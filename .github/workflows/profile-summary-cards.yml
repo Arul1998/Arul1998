@@ -30,18 +30,53 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           THEME: dracula
           BASE_URL: https://github-profile-summary-cards.vercel.app/api/cards
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           mkdir -p "profile-summary-card-output/${THEME}"
 
-          curl -fsSL "${BASE_URL}/profile-details?username=${USERNAME}&theme=${THEME}" \
-            -o "profile-summary-card-output/${THEME}/0-profile-details.svg"
-          curl -fsSL "${BASE_URL}/repos-per-language?username=${USERNAME}&theme=${THEME}" \
-            -o "profile-summary-card-output/${THEME}/1-repos-per-language.svg"
-          curl -fsSL "${BASE_URL}/most-commit-language?username=${USERNAME}&theme=${THEME}" \
-            -o "profile-summary-card-output/${THEME}/2-most-commit-language.svg"
-          curl -fsSL "${BASE_URL}/stats?username=${USERNAME}&theme=${THEME}" \
-            -o "profile-summary-card-output/${THEME}/3-stats.svg"
+          download_card() {
+            local endpoint="$1"
+            local output="$2"
+            local url="${BASE_URL}/${endpoint}?username=${USERNAME}&theme=${THEME}"
+            local tmp="${output}.tmp"
+            local attempt
+
+            for attempt in 1 2 3 4 5; do
+              if curl -fsSL \
+                -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+                -H "Accept: image/svg+xml" \
+                "${url}" \
+                -o "${tmp}"; then
+                if ! grep -q 'ERROR!!!' "${tmp}"; then
+                  mv "${tmp}" "${output}"
+                  echo "Downloaded ${output} on attempt ${attempt}"
+                  return 0
+                fi
+                echo "${output} returned error SVG on attempt ${attempt}"
+              else
+                echo "curl failed for ${output} on attempt ${attempt}"
+              fi
+              sleep $((attempt * 10))
+            done
+
+            rm -f "${tmp}"
+            if [ -f "${output}" ] && ! grep -q 'ERROR!!!' "${output}"; then
+              echo "Keeping existing valid ${output} after failed refresh"
+              return 0
+            fi
+
+            echo "Failed to download valid ${output}"
+            return 1
+          }
+
+          download_card "profile-details" "profile-summary-card-output/${THEME}/0-profile-details.svg"
+          sleep 5
+          download_card "repos-per-language" "profile-summary-card-output/${THEME}/1-repos-per-language.svg"
+          sleep 5
+          download_card "most-commit-language" "profile-summary-card-output/${THEME}/2-most-commit-language.svg"
+          sleep 5
+          download_card "stats" "profile-summary-card-output/${THEME}/3-stats.svg"
 
       - name: Commit profile summary cards
         run: |
