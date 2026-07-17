@@ -30,7 +30,6 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           THEME: dracula
           BASE_URL: https://github-profile-summary-cards.vercel.app/api/cards
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           mkdir -p "profile-summary-card-output/${THEME}"
@@ -44,11 +43,10 @@ jobs:
 
             for attempt in 1 2 3 4 5; do
               if curl -fsSL \
-                -H "Authorization: Bearer ${GITHUB_TOKEN}" \
                 -H "Accept: image/svg+xml" \
                 "${url}" \
                 -o "${tmp}"; then
-                if ! grep -q 'ERROR!!!' "${tmp}"; then
+                if grep -q '<svg' "${tmp}" && ! grep -q 'ERROR!!!' "${tmp}"; then
                   mv "${tmp}" "${output}"
                   echo "Downloaded ${output} on attempt ${attempt}"
                   return 0
@@ -61,7 +59,7 @@ jobs:
             done
 
             rm -f "${tmp}"
-            if [ -f "${output}" ] && ! grep -q 'ERROR!!!' "${output}"; then
+            if [ -f "${output}" ] && grep -q '<svg' "${output}" && ! grep -q 'ERROR!!!' "${output}"; then
               echo "Keeping existing valid ${output} after failed refresh"
               return 0
             fi
