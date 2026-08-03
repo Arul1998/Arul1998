@@ -2,28 +2,27 @@ name: Generate profile summary cards
 
 on:
   schedule:
+    # Staggered from Pac-Man (00:00 UTC) to avoid git push races.
     - cron: "23 6 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - "assets/**"
-      - "profile-summary-card-output/**"
 
+# Serialize with Pac-Man so both never commit to main at once.
 concurrency:
-  group: profile-summary-cards-${{ github.ref }}
+  group: arul1998-profile-assets
   cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     permissions:
       contents: write
 
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Download dracula profile cards
         env:
@@ -90,7 +89,8 @@ jobs:
           git commit -m "Update profile summary cards [automated]"
 
           for attempt in 1 2 3; do
-            if git pull --rebase origin main && git push; then
+            git fetch origin main
+            if git pull --rebase origin main && git push origin HEAD:main; then
               echo "Push succeeded on attempt ${attempt}."
               exit 0
             fi

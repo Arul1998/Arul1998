@@ -2,17 +2,13 @@ name: Generate Pac-Man contribution graph
 
 on:
   schedule:
+    # Staggered from profile cards (06:23 UTC) to avoid git push races.
     - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - "assets/**"
-      - "profile-summary-card-output/**"
 
+# Serialize with profile cards so both never commit to main at once.
 concurrency:
-  group: pacman-contribution-graph-${{ github.ref }}
+  group: arul1998-profile-assets
   cancel-in-progress: false
 
 env:
@@ -29,6 +25,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pacman-contribution-graph SVGs
         id: generate
@@ -84,7 +83,8 @@ jobs:
           git commit -m "Update Pac-Man contribution graph [automated]"
 
           for attempt in 1 2 3; do
-            if git pull --rebase origin main && git push; then
+            git fetch origin main
+            if git pull --rebase origin main && git push origin HEAD:main; then
               echo "Push succeeded on attempt ${attempt}."
               exit 0
             fi
