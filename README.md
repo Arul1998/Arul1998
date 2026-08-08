@@ -13,7 +13,7 @@
 
 <br>
 
-**5+ years** · **15+ projects** · **MSc Software Engineering (Merit)** · **Right to work in the UK**
+**5+ years** · **20+ projects** · **MSc Software Engineering (Merit)** · **Right to work in the UK**
 
 Open to **full-time**, **contract**, **remote**, **hybrid**, and **relocation** roles worldwide
 
