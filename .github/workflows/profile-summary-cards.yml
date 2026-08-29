@@ -2,8 +2,8 @@ name: Generate profile summary cards
 
 on:
   schedule:
-    # Staggered from Pac-Man (00:00 UTC) to avoid git push races.
-    - cron: "23 6 * * *"
+    # Weekly (Mon 06:23 UTC), staggered from Pac-Man (Mon 00:00 UTC) to avoid push races.
+    - cron: "23 6 * * 1"
   workflow_dispatch:
 
 # Serialize with Pac-Man so both never commit to main at once.

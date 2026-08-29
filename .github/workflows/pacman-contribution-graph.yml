@@ -2,8 +2,8 @@ name: Generate Pac-Man contribution graph
 
 on:
   schedule:
-    # Staggered from profile cards (06:23 UTC) to avoid git push races.
-    - cron: "0 0 * * *"
+    # Weekly (Mon 00:00 UTC), staggered from profile cards (Mon 06:23 UTC) to avoid push races.
+    - cron: "0 0 * * 1"
   workflow_dispatch:
 
 # Serialize with profile cards so both never commit to main at once.
@@ -32,7 +32,7 @@ jobs:
       - name: Generate pacman-contribution-graph SVGs
         id: generate
         continue-on-error: true
-        uses: abozanona/pacman-contribution-graph@v5.0.0
+        uses: abozanona/pacman-contribution-graph@d258e3fb01511c1ff4fe6418408ede37b2ad4935 # v5.0.0
         with:
           github_user_name: ${{ github.repository_owner }}
 
@@ -40,7 +40,7 @@ jobs:
         id: retry
         if: steps.generate.outcome == 'failure'
         continue-on-error: true
-        uses: abozanona/pacman-contribution-graph@v5.0.0
+        uses: abozanona/pacman-contribution-graph@d258e3fb01511c1ff4fe6418408ede37b2ad4935 # v5.0.0
         with:
           github_user_name: ${{ github.repository_owner }}
           player_style: conservative
