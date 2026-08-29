@@ -29,7 +29,7 @@ Software engineer with 5+ years building web and mobile products end to end — 
 |---|---|---|
 | [**angular-code-quality-toolkit**](https://github.com/Arul1998/angular-code-quality-toolkit) | VS Code extension running depcheck, ts-prune, and ESLint to find unused code and dependencies | TypeScript · VS Code |
 | [**clinic-inbox-assistant2**](https://github.com/Arul1998/clinic-inbox-assistant2) | Turns free-text clinical notes into structured, triage-ready summaries — MedGemma Impact Challenge prototype (synthetic data; demo only) | Python · MedGemma · LLM |
-| [**sparkle-tryon**](https://github.com/Arul1998/sparkle-tryon) | Browser-based virtual jewellery try-on anchored to MediaPipe face/hand landmarks in real time | React · TypeScript · MediaPipe |
+| [**linkedin-easy-apply**](https://github.com/Arul1998/linkedin-easy-apply) | Automates LinkedIn "Easy Apply" job applications — filters roles and submits applications programmatically | Python |
 | [**ngx-ai**](https://github.com/Arul1998/ngx-ai) | RxJS-friendly Angular client for OpenAI-compatible chat APIs (OpenAI, xAI Grok, or your own proxy) with first-class streaming | Angular · TypeScript · RxJS |
 | [**pdf-world**](https://github.com/Arul1998/pdf-world) | Browser PDF toolkit — merge, split, compress, and convert without leaving the page | TypeScript |
 | [**voiceclone-studio**](https://github.com/Arul1998/voiceclone-studio) | Voice cloning and TTS experimentation with a modern web UI | TypeScript |
