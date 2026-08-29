@@ -39,6 +39,7 @@ jobs:
       - name: Retry generate on failure
         id: retry
         if: steps.generate.outcome == 'failure'
+        continue-on-error: true
         uses: abozanona/pacman-contribution-graph@v5.0.0
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -54,12 +55,17 @@ jobs:
         run: |
           mkdir -p generated
           shopt -s globstar nullglob
-          files=(dist/*.svg **/*contribution-graph*.svg)
+          declare -A seen
           filtered_files=()
-          for file in "${files[@]}"; do
-            if [[ "$file" != generated/* && "$file" != assets/* ]]; then
-              filtered_files+=("$file")
+          for file in dist/*.svg **/*contribution-graph*.svg; do
+            if [[ "$file" == generated/* || "$file" == assets/* ]]; then
+              continue
             fi
+            if [[ -n "${seen[$file]:-}" ]]; then
+              continue
+            fi
+            seen[$file]=1
+            filtered_files+=("$file")
           done
           if [ ${#filtered_files[@]} -eq 0 ]; then
             echo "No generated SVG files found."
